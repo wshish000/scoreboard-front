@@ -2,7 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { Layout,Content }  from "../layout"; // 页面整体布局
 
-process.env.NODE_ENV === "development" ? Vue.use(Router) : null;
+// process.env.NODE_ENV === "development" ? Vue.use(Router) : null;
+
+Vue.use(Router);
 
 function filterTopRouterMap(name){
 	let router = topRouterMap.find((item) => {

@@ -6,6 +6,7 @@ export function login(params) {
     url: '/api/tokens',
     method: 'post',
     auth:params
+
   })
 }
 
