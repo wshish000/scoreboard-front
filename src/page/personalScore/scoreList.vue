@@ -43,10 +43,10 @@
         </template>
       </el-table-column>
       <el-table-column
-        prop="longRun"
+        prop="longrun"
         label="3000米"
         align='center'
-        width="140"
+        width="130"
         sortable>
         <template slot-scope="scope">
           <span style="color:#f56767">{{ Math.floor(scope.row.longrun/60) }}分{{ scope.row.longrun%60 }}秒</span>

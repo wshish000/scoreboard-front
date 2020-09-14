@@ -32,7 +32,7 @@
           <el-input v-model.number="form.longrun_sec" placeholder="秒"></el-input>
         </el-form-item>
         <el-form-item prop='retrace'  label="30米*2:">
-          <el-input v-model.number="form.retrace"></el-input>
+          <el-input type="number" v-model.number="form.retrace"></el-input>
         </el-form-item>
         <el-form-item prop='remark' label="备注:">
           <el-input type="text" v-model="form.remark"></el-input>
